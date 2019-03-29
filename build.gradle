@@ -1,4 +1,10 @@
-buildscript {
+
+
+plugins {
+    id 'cpp-application'
+}
+
+/*buildscript {
     repositories {
         jcenter()
     }
@@ -60,4 +66,4 @@ def findGoogleTestStaticLib(Platform p) {
     } else {
         return "libgtest.a"
     }
-}
+}*/
