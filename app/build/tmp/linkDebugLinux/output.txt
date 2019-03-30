@@ -1,0 +1,4 @@
+See file:///home/bmahr/develop/gradleNativ/app/build/tmp/linkDebugLinux/output.txt for all output for linkDebugLinux.
+linking app successful.
+
+Finished linkDebugLinux, see full log file:///home/bmahr/develop/gradleNativ/app/build/tmp/linkDebugLinux/output.txt.

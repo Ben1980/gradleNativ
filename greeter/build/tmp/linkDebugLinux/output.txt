@@ -1,0 +1,4 @@
+See file:///home/bmahr/develop/gradleNativ/greeter/build/tmp/linkDebugLinux/output.txt for all output for linkDebugLinux.
+linking libgreeter.so successful.
+
+Finished linkDebugLinux, see full log file:///home/bmahr/develop/gradleNativ/greeter/build/tmp/linkDebugLinux/output.txt.

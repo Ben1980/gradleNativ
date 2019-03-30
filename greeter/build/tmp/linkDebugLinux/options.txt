@@ -1,0 +1,6 @@
+-shared
+-Wl,-soname,libgreeter.so
+-o
+/home/bmahr/develop/gradleNativ/greeter/build/lib/main/debug/linux/libgreeter.so
+/home/bmahr/develop/gradleNativ/greeter/build/obj/main/debug/linux/6pyrvkoqfgw6jpkuvexyl799d/greeter.o
+-m64

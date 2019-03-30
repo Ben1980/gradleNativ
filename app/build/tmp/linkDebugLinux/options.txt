@@ -1,0 +1,5 @@
+-o
+/home/bmahr/develop/gradleNativ/app/build/exe/main/debug/linux/app
+/home/bmahr/develop/gradleNativ/app/build/obj/main/debug/linux/5v08dtn7cszvzrlgdayn1y9u6/main.o
+/home/bmahr/develop/gradleNativ/greeter/build/lib/main/debug/linux/libgreeter.so
+-m64
