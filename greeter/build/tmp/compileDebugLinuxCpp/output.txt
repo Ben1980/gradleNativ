@@ -1,4 +1,0 @@
-See file:///home/bmahr/develop/gradleNativ/greeter/build/tmp/compileDebugLinuxCpp/output.txt for all output for compileDebugLinuxCpp.
-compiling greeter.cpp successful.
-
-Finished compileDebugLinuxCpp, see full log file:///home/bmahr/develop/gradleNativ/greeter/build/tmp/compileDebugLinuxCpp/output.txt.

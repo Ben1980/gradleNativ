@@ -1,12 +1,15 @@
-#include <gtest/gtest.h>
 #include "greeter.hpp"
+#include <cassert>
+#include <iostream>
 
-TEST(GreeterTest, CheckCapitalisation) {
+void TestNameLength() {
     Greeter g("GradleUser");
-    EXPECT_EQ(g.getNameLength(), 10);
+    std::cout << "[test] returns the correct name length..." << std::flush;
+    assert(g.getNameLength() == 10);
+    std::cout << " pass" << std::endl;
 }
 
-int main(int argc, char **argv) {
-  ::testing::InitGoogleTest(&argc, argv);
-  return RUN_ALL_TESTS();
+int main(int argc, char** argv) {
+    TestNameLength();
+    return 0;
 }

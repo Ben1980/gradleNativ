@@ -3,5 +3,9 @@ plugins {
 }
 
 unitTest {
+    dependencies {
+        implementation project(':greeter')
+    }
+
     baseName = "greeterTest" 
 }

@@ -1,1 +1,1 @@
-include 'app', 'greeter', 'test'
+include 'app', 'greeter', 'testLib'
