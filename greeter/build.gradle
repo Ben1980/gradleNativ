@@ -13,3 +13,15 @@ library {
 
     baseName = "greeter"
 }
+
+def fmtHeaders = file("$rootDir/../fmt/include")
+
+components.main.binaries.whenElementFinalized { binary ->
+    project.dependencies {
+        if (binary.optimized) {
+            add(binary.includePathConfiguration.name, files(fmtHeaders))
+        } else {
+            add(binary.includePathConfiguration.name, files(fmtHeaders))
+        }
+    }
+}

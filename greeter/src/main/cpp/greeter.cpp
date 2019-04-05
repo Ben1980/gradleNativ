@@ -1,8 +1,11 @@
+#define FMT_HEADER_ONLY
+
 #include <iostream>
 #include "../public/greeter.hpp"
+#include "fmt/format.h"
 
 void Greeter::greet() {
-    std::cout << "Hello, " << name << ", your name has " << getNameLength() << " chars." << std::endl;
+    fmt::print("Hello, {} your name has {} chars.", name, getNameLength());
 }
 
 int Greeter::getNameLength() {
