@@ -1,6 +1,6 @@
 # gradleNativ
 
-A gradle native based multi project build setup, as discussed on [thoughts-on-cpp.com](https://thoughts-on-cpp.com/.....) for a C++ command line application.
+A gradle native based multi project build setup, as discussed on [thoughts-on-cpp.com](https://thoughts-on-cpp.com/2019/04/10/introduction-into-c-builds-with-gradle) for a C++ command line application.
 
 
 ## Getting Started
